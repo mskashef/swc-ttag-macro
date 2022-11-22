@@ -1,0 +1,15 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals = 1; plural = 0;\n"
+"Language: fa\n"
+"mime-version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: pages/index.js:15
+msgid "صفحه یافت نشد - خطای ۴۰۴"
+msgstr ""
+
+#: pages/index.js:16
+msgid "اینجا کلیک کنید"
+msgstr ""

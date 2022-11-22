@@ -1,0 +1,14 @@
+body {
+  padding: 10px;
+  background-color: #efefef;
+  text-align: center;
+}
+
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button:hover {
+  box-shadow: 0 0 0 2px #88a8ff;
+  cursor: pointer;
+}

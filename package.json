@@ -1,0 +1,32 @@
+{
+  "name": "swc-macro",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "update_translations": "ttag update i18n/fa.po components/ pages/ && ttag update i18n/en.po components/ pages/"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-decorators": "^7.20.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.2",
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@babel/plugin-proposal-private-property-in-object": "^7.18.6",
+    "@babel/plugin-syntax-typescript": "^7.20.0",
+    "babel-loader": "^9.1.0",
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-plugin-wrap-in-js": "^1.1.1",
+    "cross-env": "^7.0.3",
+    "next": "13.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "ttag": "^1.7.24",
+    "ttag-cli": "^1.10.2",
+    "ttag.macro": "^1.7.17",
+    "webpack": "^5.75.0"
+  }
+}

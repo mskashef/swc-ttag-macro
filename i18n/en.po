@@ -1,0 +1,17 @@
+msgid ""
+msgstr ""
+"Language: tr\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 4.8.1\n"
+"x-generator: Weblate 4.8.1\n"
+"mime-version: 1.0\n"
+
+#: pages/index.js:15
+msgid "صفحه یافت نشد - خطای ۴۰۴"
+msgstr "Page not found - 404 Error"
+
+#: pages/index.js:16
+msgid "اینجا کلیک کنید"
+msgstr "Click here"
