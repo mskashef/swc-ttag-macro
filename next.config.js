@@ -12,7 +12,7 @@ const nextConfig = {
 
     config.module.rules.push({
       test: /\.(js)$/,
-      include: [componentsDir, pagesDir],
+      exclude: [/node_modules/],
       use: [
         defaultLoaders.babel,
         {

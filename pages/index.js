@@ -20,7 +20,7 @@ export default function Home() {
         <br />
         <h1>{t`صفحه یافت نشد - خطای ۴۰۴`}</h1>
         <Button onClick={() => alert(`The locale is: ${process.env.NEXT_PUBLIC_LOCALE}`)}>{t`اینجا کلیک کنید`}</Button>
-        <RedButton onClick={() => alert('')}>RedButton</RedButton>
+        <RedButton onClick={() => {}}>RedButton</RedButton>
       </main>
     </div>
   )
