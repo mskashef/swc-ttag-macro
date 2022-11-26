@@ -1,6 +1,12 @@
 import Head from 'next/head'
 import Button from '../components/button'
 import { t } from 'ttag.macro'
+import dynamic from 'next/dynamic'
+const RedButton = dynamic(
+  () => import('../components/redButton'),
+  { ssr: false }
+)
+
 
 export default function Home() {
   return (
@@ -14,6 +20,7 @@ export default function Home() {
         <br />
         <h1>{t`صفحه یافت نشد - خطای ۴۰۴`}</h1>
         <Button onClick={() => alert(`The locale is: ${process.env.NEXT_PUBLIC_LOCALE}`)}>{t`اینجا کلیک کنید`}</Button>
+        <RedButton onClick={() => alert('')}>RedButton</RedButton>
       </main>
     </div>
   )
